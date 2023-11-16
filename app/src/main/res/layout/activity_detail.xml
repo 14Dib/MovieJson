@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/poster_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="Moive_Name"
+        android:layout_below="@id/poster_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/mRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Rating"
+        android:textColor="#6a5acd"
+        android:layout_below="@id/mTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/movervie_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#acacac"
+        android:layout_below="@+id/mRating"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+</RelativeLayout>
